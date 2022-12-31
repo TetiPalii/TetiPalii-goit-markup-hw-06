@@ -303,8 +303,8 @@
           </ul>
         </div>
         <div class="newsletter-container">
-          <p class="newsletter">Підпишіться на розсилку</p>
-          <div class="flex-form">
+          <p class="newsletter-text">Підпишіться на розсилку</p>
+          <div class="form-container">
             <form class="newsletter-form" autocomplete="on">
               <input
                 id="email"
@@ -313,14 +313,15 @@
                 placeholder="E-mail"
                 class="newsletter-input"
               />
+              <button type="submit" class="subscribe-button">
+                Підписатися
+                <svg width="24" height="24" class="icon-send">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
             </form>
-            <button type="submit" class="subscribe-button">
-              Підписатися
-              <svg width="24" height="24" class="icon-send">
-                <use href="./images/icons.svg#icon-icon-send"></use>
-              </svg>
-            </button>
           </div>
+        </div>
       </div>
     </footer>
   </body>
